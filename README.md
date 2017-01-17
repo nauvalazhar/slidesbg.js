@@ -1,11 +1,15 @@
-# slidesbg.js &mdash; [Homepage](http://www.nauvalazhar.net/projects/slidesbg.js/)
-Free jquery plugin for background slideshow
+# slidesbg.js 
+slidesbg.js is a simple, configurable and multi-purpose jQuery plugin used for generating a background slideshow from an array of images you specify.
 
+## Features
+- Fully responsive and highly customizable
+- Auto rotation at a given interval
+- Keyboard interaction
+- Fullscreen mode
 
-##Penggunaan Slidesbg.js
-Jadikan website anda menjadi lebih hidup
-###1. Memulai
-Gunakan jQuery 1.7+ dan panggil file slidesbg.js
+## How to use
+###1. Started
+Use jQuery 1.7+ and include the `slidesbg.min.js`
 ```html
 <script src="jquery-1.7.1.min.js"></script>
 <script src="slidesbg.min.js"></script>
@@ -13,15 +17,14 @@ Gunakan jQuery 1.7+ dan panggil file slidesbg.js
 ```
 
 ###2. HTML
-Slidesbg.js tidak memerlukan pengaturan lebih pada html anda
-cukup berikan id/class pada element yang akan dijadikan slider.
+Just give `id/class` in your HTML element.
 ```html
 <header id="myheader">
 </header>
 ```
 
-###3. Panggil Plugin
-Letakan code berikut dan header anda sudah menjadi slider.
+###3. Call the Plugin
+Put the following code and slider is ready!
 ```javascript
 var slides = [
   "image1.jpg",
@@ -34,10 +37,7 @@ $("#myheader").slidesbg({
 ```
 
 ##Demo
-Anda bisa melihat contoh dari slidesbg.js.
-
-Demo: [Click Me](http://www.nauvalazhar.net/projects/slidesbg.js/#/demo/)
-
+No Demo! Just try it yourself.
 
 ##License
 The MIT License (MIT)
